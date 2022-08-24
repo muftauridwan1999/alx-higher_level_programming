@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-for I in range(0, 90):
- if I % 10 == 0:
-   continue
- elif I % 2 == 1:
-   continue
- else:
-  print("{:02d}".format(I), end = ', ')
+for i in range(10):
+    for j in range(10):
+        if (i != j and i < j) and i < 9:
+            if(i == 8 and j == 9):
+                print("{0}{1}".format(i, j))
+            else:
+                print("{0}{1}, ".format(i, j), end='')
