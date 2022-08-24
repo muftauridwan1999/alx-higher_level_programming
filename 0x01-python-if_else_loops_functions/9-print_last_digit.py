@@ -4,5 +4,5 @@ def print_last_digit(number):
  num = repr(number)
  num = num[-1]
  num = int(num)
- print("{}".format(num))
+ print("{}".format(num), end='')
  return num
