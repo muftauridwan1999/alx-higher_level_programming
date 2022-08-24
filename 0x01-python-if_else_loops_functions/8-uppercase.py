@@ -7,5 +7,5 @@ def uppercase(str):
      continue
    else:
      num += str[I]
-print("{}".format(num))
+ print("{}".format(num))
   
