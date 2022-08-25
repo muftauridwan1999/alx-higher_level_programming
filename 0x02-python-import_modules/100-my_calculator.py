@@ -2,7 +2,7 @@
 if __name__=="__main__"
     import sys
     from calculator_1 import add, sub, mul, div
-    argv = sys.argv[:1]
+    argv = sys.argv[1:]
     argv_count = len(argv)
     operators = ["+", "-", "*", "/"]
     if argv_count is not 3:
